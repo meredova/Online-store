@@ -7,7 +7,7 @@ class CardUI {
         productsDOM.innerHTML = ' '
         productsDOM.innerHTML = `
             <div class='product-card'>
-                <a href = '/'> На главную</a>
+                <a href = 'https://meredova.github.io/Online-store/'> На главную</a>
                 <div class='product-title'>${product.title}</div>
                 <div class='product-description'>${product.description}</div>
                 <img class='product-image' src=${product.image} alt='product-image'>
